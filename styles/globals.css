@@ -1,16 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #0C0D0B;
+  font-family: 'Teko', sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+button {
+  font-family: 'Teko', sans-serif;
+
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+p {
+  font-weight: 300;
+  font-size: 35px;
+}
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }

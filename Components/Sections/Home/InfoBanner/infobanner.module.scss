@@ -1,0 +1,43 @@
+.wrapper {
+  height: 20vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .card {
+    width: 15%;
+    padding-top: 2vh;
+    position: relative;
+    .bar {
+      background: yellow;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 0;
+      -webkit-box-shadow: 0px 0px 21px 8px rgba(yellow, 0.5);
+      box-shadow: 0px 0px 21px 8px rgba(yellow, 0.5);
+      opacity: 0;
+      transition: all ease .5s;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+    &:hover {
+        .bar {
+            opacity: 1;
+        }
+    }
+  }
+  .phone {
+      padding: 2vh 2vw 2vh 2vw;
+      border: 3px solid yellow;
+      -webkit-box-shadow: 0px 0px 21px 8px rgba(transparent, 0.5);
+      box-shadow: 0px 0px 21px 8px rgba(transparent, 0.5);
+      transition: all ease .5s;
+      &:hover {
+        -webkit-box-shadow: 0px 0px 21px 8px rgba(yellow, 0.5);
+        box-shadow: 0px 0px 21px 8px rgba(yellow, 0.5);
+      }
+  }
+}
